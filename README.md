@@ -6,6 +6,12 @@
 * 导航条可以自定义
 * 标题文字可以自定义
 * 选中指示器可自定义
+ 
+##How to use LYTitleBarController
+* 1.创建一个内继承LYTitleBarController
+* 2.在viewDidLoad中添加需要展示的子控制器即可
+* 3,按钮标题为添加的子控制器的title
+* 根据自己需求进行设置其他属性
 
 ## Demo
 
