@@ -13,6 +13,8 @@
 * 3,按钮标题为添加的子控制器的title
 * 根据自己需求进行设置其他属性
 
+PS:如使用中有BUG或者你有什么好的建议或者意见请联系378018674@qq.com,谢谢!
+
 ## Demo
 
 ![image](https://raw.githubusercontent.com/kakaxixixi/LYTitleBarController/master/LYTitleBarController/LYTitleBarController/Picture/0.png)
