@@ -51,7 +51,7 @@
     }
 
   
-//    自定义属性
+//    可选自定义属性
     
     self.maxTitleCount = 6;
     
