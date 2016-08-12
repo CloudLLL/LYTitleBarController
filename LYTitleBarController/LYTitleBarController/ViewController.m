@@ -4,7 +4,6 @@
 //
 //  Created by CloudL on 16/8/12.
 //  Copyright © 2016年 CloudL. All rights reserved.
-//
 
 #import "ViewController.h"
 
