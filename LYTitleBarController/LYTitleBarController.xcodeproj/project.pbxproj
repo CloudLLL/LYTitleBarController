@@ -18,6 +18,7 @@
 		77B0CBF21D5DF5E400F69F85 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B0CBEE1D5DF5E400F69F85 /* 1.png */; };
 		77B0CBF31D5DF5E400F69F85 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B0CBEF1D5DF5E400F69F85 /* 2.png */; };
 		77B0CBF41D5DF5E400F69F85 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B0CBF01D5DF5E400F69F85 /* 3.png */; };
+		77B0CBF61D5E1E2A00F69F85 /* test1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 77B0CBF51D5E1E2A00F69F85 /* test1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		77B0CBEE1D5DF5E400F69F85 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		77B0CBEF1D5DF5E400F69F85 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		77B0CBF01D5DF5E400F69F85 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		77B0CBF51D5E1E2A00F69F85 /* test1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		77B0CBEC1D5DF5E400F69F85 /* Picture */ = {
 			isa = PBXGroup;
 			children = (
+				77B0CBF51D5E1E2A00F69F85 /* test1.gif */,
 				77B0CBED1D5DF5E400F69F85 /* 0.png */,
 				77B0CBEE1D5DF5E400F69F85 /* 1.png */,
 				77B0CBEF1D5DF5E400F69F85 /* 2.png */,
@@ -175,6 +178,7 @@
 				77B0CBD51D5DEBC600F69F85 /* Assets.xcassets in Resources */,
 				77B0CBD31D5DEBC600F69F85 /* Main.storyboard in Resources */,
 				77B0CBF41D5DF5E400F69F85 /* 3.png in Resources */,
+				77B0CBF61D5E1E2A00F69F85 /* test1.gif in Resources */,
 				77B0CBF21D5DF5E400F69F85 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +340,7 @@
 				77B0CBDE1D5DEBC600F69F85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -204,11 +204,6 @@ static NSString * const cellID = @"essence";
     
     _titleBarView.contentSize = CGSizeMake(w * self.childViewControllers.count, 0);
     
-    //    if (self.titleBarBackgroundColor == [UIColor whiteColor] && _randomChangeTitleBarColor == NO)
-    //    {
-    //        [self addTitlebarBottomLine:_titleBarView.contentSize.width];
-    //    }
-    //
     [self addTitlebarBottomLine:_titleBarView.contentSize.width];
     
 }
@@ -221,7 +216,7 @@ static NSString * const cellID = @"essence";
     switch (_indicateStyle) {
             
         case kIndicateStyleFrame:
-            // 为了让指示器看起来比较好看,稍微比btn小一点
+           
             indicateView.frame = CGRectMake(_indicateReduceWidth * 0.5, _indicateReduceHeight * 0.5, width - _indicateReduceWidth, height - _indicateReduceHeight);
             
             indicateView.layer.cornerRadius = _indicateFrameRadius;
@@ -289,9 +284,7 @@ static NSString * const cellID = @"essence";
     CGFloat offsetX = page * screen_W;
     
     //    导航条的偏移量
-    
-    
-    CGFloat navViewoffsetX = btn.center.x - screen_W *0.5;
+   CGFloat navViewoffsetX = btn.center.x - screen_W *0.5;
     
     //    最小等于0
     if (navViewoffsetX < 0) {
@@ -302,9 +295,11 @@ static NSString * const cellID = @"essence";
         navViewoffsetX = _titleBarView.contentSize.width - screen_W;
     }
     
-    [UIView animateWithDuration:0.2 animations:^{
+    _collectionView.contentOffset = CGPointMake(offsetX, 0);
+    
+    [UIView animateWithDuration:0.25 animations:^{
         
-        _collectionView.contentOffset = CGPointMake(offsetX, 0);
+        
         
         _titleBarView.contentOffset = CGPointMake(navViewoffsetX, 0);
         
@@ -328,6 +323,7 @@ static NSString * const cellID = @"essence";
     }];
     
     
+    
 }
 
 #pragma mark - 添加导航条
@@ -342,8 +338,6 @@ static NSString * const cellID = @"essence";
     titleBarView.showsHorizontalScrollIndicator = NO;
     
     titleBarView.showsVerticalScrollIndicator = NO;
-    
-    //    titleBarView.bounces = NO;
     
     titleBarView.backgroundColor = self.titleBarBackgroundColor;
     
